@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 import { devtools } from "zustand/middleware";
 
 const BASE_URL =
-  import.meta.env.MODE === "development" ? "http://localhost:5001" : "/";
+  import.meta.env.MODE === "development" ? "http://localhost:5001" : "https://chatapp-backend-8fbj.onrender.com";
 
 export const useAuthStore = create(
   devtools(

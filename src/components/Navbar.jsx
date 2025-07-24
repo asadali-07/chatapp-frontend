@@ -18,7 +18,7 @@ const Navbar = () => {
                 <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
               </div>
               <h1 className="text-base sm:text-lg font-bold">
-                VibeTalk🎧
+                VibeTalks🎧
               </h1>
             </Link>
           </div>
